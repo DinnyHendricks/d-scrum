@@ -17,6 +17,7 @@ function App() {
           <Route path='scrum-team' element={<ScrumTeam />} />
           <Route path='events' element={<SprintEvents />} />
           <Route path='artifacts' element={<Artifacts />} />
+          <Route path='*' element={<Artifacts />} />
         </Route>
       </Routes>
 
