@@ -12,7 +12,7 @@ function App() {
     <>
       <Layout>
         <Routes>
-          <Route index element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path='essence' element={<Essence />} />
           <Route path='scrum-team' element={<ScrumTeam />} />
           <Route path='events' element={<SprintEvents />} />
