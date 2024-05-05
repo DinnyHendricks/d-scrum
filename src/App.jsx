@@ -10,16 +10,15 @@ import './App.css'
 function App() {
   return (
     <>
-      <Routes>
-        <Route element={<Layout />}>
+      <Layout>
+        <Routes>
           <Route index element={<Home />} />
           <Route path='essence' element={<Essence />} />
           <Route path='scrum-team' element={<ScrumTeam />} />
           <Route path='events' element={<SprintEvents />} />
           <Route path='artifacts' element={<Artifacts />} />
-        </Route>
-      </Routes>
-
+        </Routes>
+      </Layout>
     </>
   )
 }
