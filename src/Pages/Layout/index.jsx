@@ -4,22 +4,7 @@ import { useState, useRef } from "react";
 import styles from './Layout.module.css'
 
 const Layout = () => {
-    const [showNavItems, setShowNavItems] = useState(false);
-    const navItemsContainer = useRef(null);
 
-    const closeMenu = () => {
-        setShowNavItems(false)
-    }
-
-    const handleClick = () => {
-        setShowNavItems(!showNavItems)
-    }
-
-    document.addEventListener('click', (event) => {
-        if (showNavItems && !navItemsContainer?.current?.contains(event.target)) {
-            closeMenu();
-        }
-    });
 
     return(
         <>
