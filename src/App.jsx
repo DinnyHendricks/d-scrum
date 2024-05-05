@@ -12,11 +12,12 @@ function App() {
     <>
       <Routes>
         
-          <Route path='/' element={<Essence />}/>
+          
           <Route path='/essence' element={<Essence />}/>
           <Route path='/scrum-team' element={<ScrumTeam />}/>
           <Route path='/events' element={<SprintEvents />}/>
           <Route path='/artifacts' element={<Artifacts />}/>
+          <Route path='/' element={<Home />}/>
 
       </Routes>
     </>
