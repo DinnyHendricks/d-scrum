@@ -13,10 +13,10 @@ function App() {
       <Routes>
         
           <Route path='/' element={<Home />}/>
-          <Route path='essence' element={<Essence />}/>
-          <Route path='scrum-team' element={<ScrumTeam />}/>
-          <Route path='events' element={<SprintEvents />}/>
-          <Route path='artifacts' element={<Artifacts />}/>
+          <Route path='/essence' element={<Essence />}/>
+          <Route path='/scrum-team' element={<ScrumTeam />}/>
+          <Route path='/events' element={<SprintEvents />}/>
+          <Route path='/artifacts' element={<Artifacts />}/>
 
       </Routes>
     </>
