@@ -12,7 +12,7 @@ function App() {
     <>
       <Routes>
         
-          <Route path='/' element={<Home />}/>
+          <Route path='/' element={<Essence />}/>
           <Route path='/essence' element={<Essence />}/>
           <Route path='/scrum-team' element={<ScrumTeam />}/>
           <Route path='/events' element={<SprintEvents />}/>
