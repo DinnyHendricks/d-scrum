@@ -3,7 +3,7 @@ import { Menu } from "lucide-react";
 import { useState, useRef } from "react";
 import styles from './Layout.module.css'
 
-const Layout = () => {
+const Layout = ({ children }) => {
     const [showNavItems, setShowNavItems] = useState(false);
     const navItemsContainer = useRef(null);
 
