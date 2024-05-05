@@ -10,7 +10,6 @@ import './App.css'
 function App() {
   return (
     <>
-      <Layout>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='essence' element={<Essence />} />
@@ -18,7 +17,6 @@ function App() {
           <Route path='events' element={<SprintEvents />} />
           <Route path='artifacts' element={<Artifacts />} />
         </Routes>
-      </Layout>
     </>
   )
 }
