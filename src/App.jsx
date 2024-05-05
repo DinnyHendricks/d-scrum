@@ -11,12 +11,12 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path='/' element={<Layout />}>
+        <Route element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path='/essence' element={<Essence />} />
-          <Route path='/scrum-team' element={<ScrumTeam />} />
-          <Route path='/events' element={<SprintEvents />} />
-          <Route path='/artifacts' element={<Artifacts />} />
+          <Route path='essence' element={<Essence />} />
+          <Route path='scrum-team' element={<ScrumTeam />} />
+          <Route path='events' element={<SprintEvents />} />
+          <Route path='artifacts' element={<Artifacts />} />
         </Route>
       </Routes>
     </>
